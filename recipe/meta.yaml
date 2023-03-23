@@ -1,5 +1,5 @@
 {% set name = "kalendar" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kalendar-{{ version }}.tar.gz
-  sha256: ebd8908617c70acb3b383dd8f36521a2a8497fe9e6ee7a50236353ff7a285bd2
+  sha256: e04a3f0d8c3c3c7dd6bb22344bc593778f94743bf99e76afb20cd7658edca89f
 
 build:
   noarch: python
